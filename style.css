@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#navbar {
+  background-color: #1c1b1b;
+
+}
+
+#sticnav {
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  #logo {
+
+    height: auto;
+    width: 110px;
+
+  }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+  #navcon {
+    margin: 0px 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 4000px) and (min-width: 1051px) {
+
+  #navcon {
+    margin: 0px 50px;
+
+  }
+
+}
+
+
+/* navbar complate */
+
+/* .col-md-12{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+#heroimg{
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+#imgtext{
+  z-index: 2;
+  position: relative;
+  top: 50vh;
+} */
+
+
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+
+  #hero {
+    background-image: url(center.png);
+    background-position: center center;
+    background-size: max(215vh, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+}
+
+@media screen and (max-width: 919px) and (min-width: 501px) {
+
+  #hero {
+    background-image: url(center.png);
+    background-position: center center;
+    background-size: max(215vh, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 920px) {
+
+  #hero {
+    background-image: url(Untitled\ design3.png);
+    background-position: center center;
+    background-size: max(200vh, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1101px) {
+
+  #hero {
+    background-image: url(Untitled\ design3.png);
+    background-position: center center;
+    background-size: max(200vh, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 4000px) and (min-width: 1201px) {
+
+  #hero {
+    background-image: url(Untitled\ design.png);
+    background-position: center center;
+    background-size: max(210vh, 100vw);
+    background-repeat: no-repeat;
+    height: 105vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:768px) {
+  .rgt {
+    padding-right: 15px;
+  }
+
+  .lft {
+    padding-left: 15px;
+  }
+}
+
+.herotext {
+  font-size: 10vh;
+  color: white;
+}
+
+@media screen and (max-width:450px) and (min-width:349px) {
+  .herotext {
+    font-size: 7vh;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .herotext {
+    font-size: 5vh;
+  }
+}
+
+.hw1 {
+  text-align: center;
+}
+
+.text-container {
+  display: inline-block;
+}
+
+.hw {
+  font-family: Grape Nuts;
+  color: #1C1B1B;
+  font-size: 6vh;
+  position: relative;
+  top: 50px;
+}
+
+.hr {
+  height: 5px;
+  background: #ff782d;
+  margin-bottom: 30px;
+}
+
+.welintro{
+  display: flex;
+  justify-content: center;
+  margin: 10vh;
+  color: #ff782d;
+}
+
+.greet{
+  width: 45vw;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width:1000px) and (min-width:751px) {
+  .greet{
+    width: 60vw;
+  }
+}
+@media screen and (max-width:750px) and (min-width:551px){
+  .greet{
+    width: 75vw;
+
+  }
+}
+
+@media screen and (max-width:550px) and (min-width:400px) {
+  .greet{
+    width: 80vw;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:399px) {
+  .greet{
+    width: 95vw;
+    font-size: 15px;
+  }
+}
+
+.lft {
+  /* display: flex; */
+  text-align: right;
+  padding-left: 80px;
+
+}
+
+.lft p {
+  background-color: #ff762d16;
+  border-radius: 10px;
+  font-size: 2vh;
+
+}
+
+.rgt p {
+  background-color: #ff762d16;
+  border-radius: 10px;
+  font-size: 2vh;
+
+}
+
+.rgt {
+  padding-right: 80px;
+}
+
+@media screen and (max-width:287px) {
+  .head_welcom {
+    font-size: 1vh;
+    width: max-content;
+
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+
+  .lft {
+    padding-left: 20px;
+  }
+
+  .rgt {
+    padding-right: 20px;
+  }
+}
+
+.dj_shead {
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width:1024px) and (min-width:800px) {
+  #dj {
+    margin-top: 30vh;
+  }
+}
+
+@media screen and (max-width:7680px) and (min-width:768px) {
+  #dj_small {
+    display: none;
+  }
+}
+
+#dj_small {
+  /* justify-content: center; */
+  text-align: center;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (max-width: 766px) {
+  #dj {
+    display: none;
+  }
+
+}
+
+#dj {
+  margin-top: 16vh;
+}
+
+@media screen and (max-width:767px) and (min-width:766px) {
+
+  /* jugad che do not disturb */
+  #dj {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #dj {
+    display: none;
+  }
+}
+
+
+
+.lft {
+  margin-bottom: 50px;
+}
+
+.rgt {
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.back_img {
+  width: 100%;
+  height: 50vh;
+  background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.bg_up_text {
+  color: white;
+  font-size: 6vh;
+  margin: 5vw;
+}
+
+@media screen and (max-width:1024px) and (min-width:470px) {
+  .bg_up_text {
+
+    font-size: 4vh;
+
+  }
+}
+
+@media screen and (max-width:469px) {
+  .bg_up_text {
+
+    font-size: 3.5vh;
+
+  }
+}
+
+.uniq_text {
+  color: #ff782d;
+}
+
+
+
+
+/* .amw{
+
+} */
+
+.wd {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.work_style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+
+}
+
+.icon-blue {
+  color: #1DA1F2;
+}
+
+.icon-red {
+  color: #ff0000;
+}
+
+.icon-green {
+  color: #136a1e;
+}
+
+.icon-purple {
+  color: #49238a;
+}
+
+
+
+
+
+.abmw {
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+
+.services_row {
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 15px;
+  display: flex;
+  width: 80vw;
+}
+
+@media screen and (max-width:450px) {
+  .services_row {
+    padding: 8px;
+    width: 90vw;
+  }
+
+}
+
+@media screen and (min-width:450px) and (max-width:1280px) {
+  .services_row {
+    padding: 10px;
+    width: 95vw;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+
+  .img_service,
+  .work_style {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:4000px) {
+
+  .web_dev {
+    display: none;
+  }
+}
+
+
+
+
+#rw_head{
+  text-align: center;
+  margin-bottom: 7vh;
+}
+
+#cardw{
+  margin-bottom: 15vh
+}
+
+#card{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+
+.one_card{
+  border: 2px solid black;
+  padding: 2vh;
+  border-radius: 10px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.card_name{
+  text-align: center;
+}
+
+
+
+
+
+.back_img2 {
+  width: 100%;
+  height: 50vh;
+  background-image: url('backimg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.git{
+  padding: 10px;
+  background:#b28268 ;
+}
+
+.git:hover{
+  padding: 12px;
+  background-color: #ff782d;
+  color: white;
+}
+
+
+
+
+.form{
+  /* width: 50vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 100px;
+  align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

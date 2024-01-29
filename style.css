@@ -202,40 +202,41 @@
   margin-bottom: 30px;
 }
 
-.welintro{
+.welintro {
   display: flex;
   justify-content: center;
   margin: 10vh;
   color: #ff782d;
 }
 
-.greet{
+.greet {
   width: 45vw;
   font-size: 30px;
   text-align: center;
 }
 
 @media screen and (max-width:1000px) and (min-width:751px) {
-  .greet{
+  .greet {
     width: 60vw;
   }
 }
-@media screen and (max-width:750px) and (min-width:551px){
-  .greet{
+
+@media screen and (max-width:750px) and (min-width:551px) {
+  .greet {
     width: 75vw;
 
   }
 }
 
 @media screen and (max-width:550px) and (min-width:400px) {
-  .greet{
+  .greet {
     width: 80vw;
     font-size: 20px;
   }
 }
 
 @media screen and (max-width:399px) {
-  .greet{
+  .greet {
     width: 95vw;
     font-size: 15px;
   }
@@ -502,23 +503,23 @@
 
 
 
-#rw_head{
+#rw_head {
   text-align: center;
   margin-bottom: 7vh;
 }
 
-#cardw{
+#cardw {
   margin-bottom: 15vh
 }
 
-#card{
+#card {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
 }
 
 
-.one_card{
+.one_card {
   border: 2px solid black;
   padding: 2vh;
   border-radius: 10px;
@@ -526,7 +527,7 @@
   text-decoration: none;
 }
 
-.card_name{
+.card_name {
   text-align: center;
 }
 
@@ -549,21 +550,28 @@
 
 
 
-.git{
+.git {
   padding: 10px;
-  background:#b28268 ;
+  background: #b28268;
+  border: none;
 }
 
-.git:hover{
+.git:hover {
   padding: 12px;
   background-color: #ff782d;
   color: white;
 }
 
+#git_link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
 
 
-.form{
+
+.form {
   /* width: 50vw;
   border: 1px solid black;
   border-radius: 10px;
@@ -572,23 +580,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#submit_btn {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: none;
+  width: 90px;
+  border-radius: 10px;
+}
